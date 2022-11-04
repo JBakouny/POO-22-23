@@ -7,8 +7,12 @@ public:
     Person(string name, int age) : name(name), age(age) {
     }
 
-    void getName();
-    void getAge();
+    string getName() const {
+        return name;
+    }
+    int getAge() const {
+        return age;
+    }
 
     //TODO(Bechara): Implement this method
     void afficher() const{
@@ -24,5 +28,7 @@ private:
 
 int main() {
 
-
+    Person p("Joe", 23);
+    p.afficher();
+    return 0;
 }
