@@ -1,10 +1,10 @@
+#include "gtest/gtest.h"
 #include<iostream>
 #include<string>
 #include "Person.h"
 using namespace std;
 
-int main() {
-    Person p("Bechara", 23);
-    p.afficher();
-    return 0;
+TEST(PersonTest, AgeTest) {
+  Person p("Joe", 25);
+  EXPECT_EQ(p.getAge(), 25);
 }
