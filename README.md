@@ -1,4 +1,10 @@
-# C++ Workspace Implemented in Class
+# CMake and Google Test links
+
+https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html
+https://cmake.org/cmake/help/latest/guide/tutorial/Adding%20a%20Library.html#exercise-1-creating-a-library
+https://google.github.io/googletest/quickstart-cmake.html
+
+# Git Commands
 
 To see the whole git history, type the command:
 
