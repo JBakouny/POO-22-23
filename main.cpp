@@ -14,7 +14,6 @@ public:
         return age;
     }
 
-    //TODO(Bechara): Implement this method
     void afficher() const{
         cout << "Nom:" << name << endl;
         cout << "Age:" << age << endl;
@@ -28,7 +27,7 @@ private:
 
 int main() {
 
-    Person p("Joe", 23);
+    Person p("Bechara", 23);
     p.afficher();
     return 0;
 }
